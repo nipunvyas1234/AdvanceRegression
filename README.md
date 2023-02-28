@@ -1,5 +1,7 @@
-# Project Name
-> Outline a brief description of your project.
+# Advanced Regression
+> A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
+
+The company wants to know: Which variables are significant in predicting the price of a house, and How well those variables describe the price of a house.
 
 
 ## Table of Contents
@@ -14,23 +16,25 @@
 - Provide general information about your project here.
 - What is the background of your project?
 - What is the business probem that your project is trying to solve?
+- A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
+
+The company wants to know: Which variables are significant in predicting the price of a house, and How well those variables describe the price of a house.
 - What is the dataset that is being used?
+- Data set has been provided along with the problem
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The list of variables which are important in determing the SalePrice of house are as follows. This is obtained from the Lasso analysis done above
+
+'OverallQual', 'GrLivArea', 'OverallCond', 'GarageArea', 'BsmtFullBath', 'Fireplaces', 'FullBath', 'TotalBsmtSF', 'LotArea', 'MSZoning_RL', 'WoodDeckSF', 'ScreenPorch', '1stFlrSF', 'BsmtFinSF1', 'HalfBath', 'KitchenAbvGr', 'MSSubClass', 'PoolArea', 'PropAge'
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python 3.X and pandas module, scikit and jupyter notebook
+- Anaconda platform
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -42,7 +46,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@nipunvyas1234] - feel free to contact me!
 
 
 <!-- Optional -->
